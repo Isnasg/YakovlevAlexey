@@ -35,4 +35,4 @@ def calculate_month(year, month):
     return f"Суммарные траты за {month}.{year}: {total} руб."
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
